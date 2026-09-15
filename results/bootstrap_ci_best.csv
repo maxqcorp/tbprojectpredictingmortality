@@ -1,0 +1,8 @@
+metric,estimate,ci_lower,ci_upper
+accuracy,0.689,0.635,0.743
+f1_weighted,0.705,0.657,0.756
+roc_auc,0.736,0.675,0.796
+sensitivity,0.741,0.642,0.839
+specificity,0.67,0.606,0.734
+ppv,0.458,0.373,0.541
+npv,0.873,0.822,0.923

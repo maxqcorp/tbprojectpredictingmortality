@@ -1,0 +1,10 @@
+category,n,pct_of_deaths,pct_of_recorded
+Deaths in cohort,405,100.0,
+Cause-of-death recorded,152,37.5,
+TB-related death (Y),62,,40.8
+Non-TB-related death (N),90,,59.2
+Contributor: Late diagnosis,21,,13.8
+Contributor: Multi-system failure,11,,7.2
+Contributor: Secondary infection,20,,13.2
+Contributor: Mismanagement,1,,0.7
+Contributor: Other,28,,18.4

@@ -1,0 +1,4 @@
+model,accuracy,f1_weighted,roc_auc,sensitivity,specificity,ppv,npv,TP,FN,TN,FP,cv_roc_auc,cv_roc_auc_sd
+Primary logistic regression + SMOTE,0.689,0.705,0.736,0.741,0.67,0.458,0.873,60,21,144,71,0.76,0.018
+Logistic regression without SMOTE,0.726,0.707,0.737,0.333,0.874,0.5,0.777,27,54,188,27,0.769,0.018
+Logistic regression with class weighting,0.676,0.693,0.74,0.741,0.651,0.444,0.87,60,21,140,75,0.767,0.02

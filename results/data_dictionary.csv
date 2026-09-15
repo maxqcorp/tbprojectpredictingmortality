@@ -1,0 +1,22 @@
+feature,original_column,role,tier,n_missing_in_cohort,imputation,fill_value,label
+age,Umur (Tahun),numeric,Tier-1,3,median,41.0,Age (years)
+num_dependents,Bilangan Tanggungan,numeric,Tier-2,161,median,0.0,No. of dependents
+dx_to_treatment_days,derived: Tarikh Rawatan Dimulakan - Tarikh Diagnosa,numeric,Tier-2,2,median,0.0,Diagnosis-to-treatment (days)
+sex,Jantina,categorical,Tier-1,0,none (complete in cohort),-,Sex
+citizenship,Warganegara,categorical,Tier-1,0,none (complete in cohort),-,Citizenship
+education,Status Pendidikan Pesakit,categorical,Tier-1,0,none (complete in cohort),-,Education level
+income_status,Status Pendapatan,categorical,Tier-1,0,none (complete in cohort),-,Income status
+ethnicity,Keturunan,categorical,Tier-2,297,explicit category 'Tidak Diketahui' (Unknown),Tidak Diketahui,Ethnicity
+residence_location,Lokasi Tempat Tinggal Semasa,categorical,Tier-2,32,mode,Bandar,Residence location
+diabetes,Diabetes Mellitus,categorical,Tier-1,0,none (complete in cohort),-,Diabetes mellitus
+smoking,Merokok,categorical,Tier-1,0,none (complete in cohort),-,Smoking
+hiv_status,HIV Pra-Diagnosa,categorical,Tier-1,0,none (complete in cohort),-,HIV status (pre-diagnosis)
+bcg_scar,Parut BCG,categorical,Tier-1,0,none (complete in cohort),-,BCG scar
+cxr_severity,Status X-ray Dada Semasa Diagnosa,categorical,Tier-1,0,none (complete in cohort),-,Chest X-ray severity
+tb_site,Lokasi Anatomi Tibi (Diagnosa),categorical,Tier-1,0,none (complete in cohort),-,TB anatomical site
+tb_case_category,Kategori Kes Tibi,categorical,Tier-1,0,none (complete in cohort),-,TB case category
+baseline_sputum_smear,Kahak Awal Rawatan,categorical,Tier-1,0,none (complete in cohort),-,Baseline sputum smear
+detection_method,Cara Pengesanan,categorical,Tier-1,0,none (complete in cohort),-,Case-detection method
+healthcare_worker,Petugas Perubatan/Kesihatan,categorical,Tier-1,0,none (complete in cohort),-,Healthcare worker
+tb_meningitis,TB Meningitis,categorical,Tier-2,1213,clinical: NaN->'Tidak' (pulmonary case lacks this site),Tidak,TB meningitis
+tb_miliary,TB Miliary,categorical,Tier-2,1213,clinical: NaN->'Tidak' (pulmonary case lacks this site),Tidak,Miliary TB

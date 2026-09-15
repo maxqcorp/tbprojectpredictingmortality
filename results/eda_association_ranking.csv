@@ -1,0 +1,22 @@
+feature,label,chi2,dof,p_value,cramers_v,significant
+age,Age (years),141.22,8,1.322201042619799e-26,0.3,Yes
+income_status,Income status,49.02,1,2.5301697201014265e-12,0.18,Yes
+education,Education level,51.25,6,2.6363739451970573e-09,0.175,Yes
+sex,Sex,33.19,1,8.35734704082171e-09,0.148,Yes
+cxr_severity,Chest X-ray severity,36.0,4,2.899771936476334e-07,0.147,Yes
+tb_meningitis,TB meningitis,27.84,1,1.3196725918377692e-07,0.135,Yes
+hiv_status,HIV status (pre-diagnosis),23.12,2,9.551695875190233e-06,0.12,Yes
+bcg_scar,BCG scar,14.24,1,0.00016129236825564614,0.095,Yes
+num_dependents,No. of dependents,13.81,2,0.0010015087078233673,0.089,Yes
+tb_miliary,Miliary TB,12.55,1,0.0003951985651052604,0.088,Yes
+diabetes,Diabetes mellitus,9.6,1,0.001950160858669014,0.076,Yes
+healthcare_worker,Healthcare worker,6.6,1,0.010208473340956687,0.062,Yes
+ethnicity,Ethnicity,11.67,7,0.11184763781559699,0.056,No
+tb_site,TB anatomical site,5.61,2,0.06039038084486779,0.049,No
+tb_case_category,TB case category,6.14,3,0.1050526187454711,0.046,No
+citizenship,Citizenship,3.04,1,0.08113422662752665,0.037,No
+baseline_sputum_smear,Baseline sputum smear,2.87,2,0.23849589328792287,0.024,No
+residence_location,Residence location,0.69,1,0.4045437624171042,0.0,No
+smoking,Smoking,0.12,1,0.7278094313386376,0.0,No
+detection_method,Case-detection method,0.96,2,0.617791288708994,0.0,No
+dx_to_treatment_days,Diagnosis-to-treatment (days),1.49,3,0.6839055188652562,0.0,No

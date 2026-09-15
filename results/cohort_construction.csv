@@ -1,0 +1,8 @@
+step,n
+"Registered TB records (2022, Wilayah Persekutuan)",3743
+Excluded: outcome missing,429
+Excluded: 'Masih Dalam Rawatan' (still on treatment),1799
+Excluded: 'Tukar Diagnosis' (diagnosis revised away from TB),37
+ANALYTIC COHORT (concluded TB outcomes),1478
+  Died (mortality = 1),405
+  Survived/other concluded (mortality = 0),1073

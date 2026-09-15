@@ -1,0 +1,6 @@
+,precision,recall,f1-score,support
+Non-death,0.873,0.67,0.758,215.0
+Died,0.458,0.741,0.566,81.0
+accuracy,0.689,0.689,0.689,0.689
+macro avg,0.665,0.705,0.662,296.0
+weighted avg,0.759,0.689,0.705,296.0

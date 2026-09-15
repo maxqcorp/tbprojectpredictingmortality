@@ -1,0 +1,2 @@
+model,brier_score,calibration_intercept,calibration_slope,mean_predicted_risk,observed_risk
+Logistic Regression,0.214,-0.965,0.652,0.449,0.274

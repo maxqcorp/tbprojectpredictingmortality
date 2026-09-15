@@ -1,0 +1,26 @@
+# Sensitive or patient-level data
+data/
+*.xlsx
+*.xls
+
+# Trained model binaries
+models/
+*.pkl
+*.joblib
+
+# Document-generation artifacts
+manuscript/
+BDMA_LaTeX_template_2026/
+MANUSCRIPT_NOTES.md
+ETHICS_AND_FUNDING.md
+
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local environments
+.venv/
+venv/
+env/
+.env
